@@ -363,7 +363,7 @@ input[type="color"] {
   border: none;
   padding: 0;
   border: 1px solid #d8e7ef;
-  height: 45px;
+  /* height: 45px; */
   max-width: 100%;
   padding: 10px;
   -webkit-box-sizing: border-box;
@@ -382,7 +382,7 @@ input[type="color"] {
 }
 select {
   border: 1px solid transparent;
-  background-color: #d8e7ef;
+  background-color: #d8e7ef ; 
   height: 45px;
   padding: 10px;
   line-height: 100%;
@@ -2687,4 +2687,32 @@ a.link:hover {
   top: 50%;
   margin-top: -32px;
   background: url(../images/icon/preloader.gif);
+}
+
+.get-code {
+  height: 45px;
+  line-height: 45px;
+  background-color: #18ba60;
+  padding: 0 30px;
+  color: #fff;
+  border-radius: 0;
+  font-weight: 700;
+}
+
+.get-code:hover {
+  background-color: #174c81;
+  padding: 0 30px;
+  color: #fff;
+
+}
+
+
+.gray{
+  background: #fff ;
+  color: #000;
+  border: 1px solid #d8e7ef;
+}
+
+.font-lable{
+  font-size: 13px;
 }
